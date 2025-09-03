@@ -23,8 +23,10 @@ function Page() {
         }
         fetchData();
     },[params])
-  return (
-      <TripForm initialValues={trip} />
+    return (
+      <>
+        <TripForm initialValues={trip} />
+      </>
   )
 }
 
